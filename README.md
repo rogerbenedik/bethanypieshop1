@@ -4,5 +4,3 @@ ___________________
 Bethany Pie Shop!
 [LIVE DEMO](https://bethanypieshop1.vercel.app/)
 ____
-
-![Bethany Pie Shop!](https://ibb.co/Fb6tQwp)
