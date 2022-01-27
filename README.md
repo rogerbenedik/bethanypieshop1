@@ -1,6 +1,8 @@
-# bethanypieshop
-Sample pie shop built with Html, CSS and Javascript
+#Sample pie shop built with Html, CSS and Javascript
+___________________
 
-
+Bethany Pie Shop!
 [LIVE DEMO](https://bethanypieshop1.vercel.app/)
-<img align="center" width="100" height="100" src="https://gfycat.com/agreeableblankalpinegoat">
+____
+
+![Bethany Pie Shop!](https://ibb.co/Fb6tQwp)
