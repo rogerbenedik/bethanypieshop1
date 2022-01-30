@@ -1,111 +1,109 @@
 @import url(reset.css);
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #999;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #999;
 }
 
-p{
-    margin: 0.5em 0 0.5em 0;
+p {
+  margin: 0.5em 0 0.5em 0;
 }
-header{
-    display: block;
-    position: fixed;
-    background-color: #a493c0;
-    padding: 10px;
-    width: 100%;
+header {
+  display: block;
+  position: fixed;
+  background-color: #a493c0;
+  padding: 10px;
+  width: 100%;
 }
 nav a:visited,
-nav a:link{
-    color: #fff;
-    text-decoration: none;
+nav a:link {
+  color: #fff;
+  text-decoration: none;
 }
 
-.logo{
-    max-width: 100%;
+.logo {
+  max-width: 100%;
 }
-nav > ul{
-    display: inline;
+nav > ul {
+  display: inline;
 }
-nav > ul > li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 5px 0 5px;
+nav > ul > li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 5px 0 5px;
 }
-main{
-    display: block;
-    background-image: url("./image/background.png");
-    padding-top: 3em;
-    padding-bottom: 3em;
-    min-height: 85%;
+main {
+  display: block;
+  background-image: url("./image/background.png");
+  padding-top: 3em;
+  padding-bottom: 3em;
+  min-height: 85%;
 }
 
-footer{
-    padding: 15px;
+footer {
+  padding: 15px;
 }
 aside,
-article{
-    padding: 2em;
+article {
+  padding: 2em;
 }
-aside{
-    text-align: center;
+aside {
+  text-align: center;
 }
- article{
-     width:75%;
- }
+article {
+  width: 75%;
+}
 
-.columns{
+.columns {
+  display: flex;
+}
+
+@media only screen and (min-width: 668px) {
+  main {
     display: flex;
+  }
+  aside {
+    margin-left: 2px;
+  }
+
+  .columns-desktop {
+    display: flex;
+  }
 }
 
-
-
- @media only screen and (min-width: 668px){
-     main {
-        display: flex;
-     }
-     aside{
-         margin-left: 2px;
-     }
-
-     .columns-desktop{
-         display: flex;
-     }
- }
-
-.pie{
-    width: 200px;
-    padding: 10px;
-    margin: 10px;
-    background-color: #fff;
-    border: solid 1px #ccc;
+.pie {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  border: solid 1px #ccc;
 }
-.pie img{
-    width: 100px;
+.pie img {
+  width: 100px;
 }
-.pie .title{
-    font-weight: bold;
+.pie .title {
+  font-weight: bold;
 }
-.pie .price{
-text-align: right;
+.pie .price {
+  text-align: right;
 }
-.pie .columns div{
-    width: 50%;
+.pie .columns div {
+  width: 50%;
 }
-.pie button{
-    background-color: #f6aeae;
-    padding: 10px;
-    border: solid 1px #f6aeae;
-    border-radius: 3px;
-    color: #fff;
+.pie button {
+  background-color: #f6aeae;
+  padding: 10px;
+  border: solid 1px #f6aeae;
+  border-radius: 3px;
+  color: #fff;
 }
 
-.pie__text{
-font-size: 25px;
-font-weight: bold;
-margin-left: 10px;
+.pie__text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
 }
-.pie_page{
-    text-decoration: none;
-    font-weight: 600;
+.pie_page {
+  text-decoration: none;
+  font-weight: 600;
 }
